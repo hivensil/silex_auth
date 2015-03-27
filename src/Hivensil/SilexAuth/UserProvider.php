@@ -8,6 +8,10 @@ use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use Doctrine\DBAL\Connection;
 
+/**
+ * Class UserProvider
+ * @package Hivensil\SilexAuth
+ */
 class UserProvider implements UserProviderInterface
 {
     private $conn;
