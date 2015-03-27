@@ -9,6 +9,8 @@ use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use Doctrine\DBAL\Connection;
 
 /**
+ * Реализация интерфейса UserProviderInterface
+ * позволяет хранить пользователей в БД
  * Class UserProvider
  * @package Hivensil\SilexAuth
  */
